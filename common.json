@@ -1,0 +1,7 @@
+{
+    "client_addr": "0.0.0.0",
+    "data_dir": "e:/sources/consul/data",
+    "advertise_addr": ["192.168.66.129"],
+    "datacenter": "SewerDistrict"
+}
+  
