@@ -1,0 +1,5 @@
+E:\Sources\consul\ConsoleApp\ConsulApp\ConsulApp\bin\Debug\netcoreapp3.1\ConsulApp.exe
+E:\Sources\consul\ConsoleApp\ConsulApp\ConsulApp\obj\Debug\netcoreapp3.1\ConsulApp.csprojAssemblyReference.cache
+E:\Sources\consul\ConsoleApp\ConsulApp\ConsulApp\obj\Debug\netcoreapp3.1\ConsulApp.AssemblyInfoInputs.cache
+E:\Sources\consul\ConsoleApp\ConsulApp\ConsulApp\obj\Debug\netcoreapp3.1\ConsulApp.AssemblyInfo.cs
+E:\Sources\consul\ConsoleApp\ConsulApp\ConsulApp\obj\Debug\netcoreapp3.1\ConsulApp.csproj.CoreCompileInputs.cache

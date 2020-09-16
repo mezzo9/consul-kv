@@ -1,0 +1,83 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/{url}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ServiceName": "OrderService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//{
+//  "ReRoutes": [
+//    {
+//      "DownstreamPathTemplate": "/order",
+//      "DownstreamScheme": "https",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "google.com",
+//          "Port": 80
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/order",
+//      "UpstreamHttpMethod": [ "Get" ]
+//    }
+//  ],
+//  "SwaggerEndPoints": [
+//    {
+//      "Key": "Order",
+//      "Config": [
+//        {
+//          "Name": "Orders API",
+//          "Version": "v1",
+//          "Service": {
+//            "Name": "OrderService",
+//            "Path": "/swagger/v1/swagger.json"
+//          }
+//        }
+//      ]
+//    }
+//  ],
+//  "GlobalConfiguration": {
+//    //"ServiceDiscoveryProvider": {
+//    //  "Host": "localhost",
+//    //  "Port": 8500,
+//    //  "Type": "Consul"
+//    //}
+//  }
+//}
