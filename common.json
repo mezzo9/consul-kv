@@ -2,6 +2,7 @@
     "client_addr": "0.0.0.0",
     "data_dir": "e:/sources/consul/data",
     "advertise_addr": ["192.168.66.129"],
+    "retry_join": ["sdp-ela1","sdp-ela2","sdp-ela3"],
     "datacenter": "SewerDistrict"
 }
   

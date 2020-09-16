@@ -1,0 +1,1 @@
+sc.exe create "Consul" binPath="e:/consul_1.8.4/consul agent -config-dir=e:/consul_1.8.4/config" start=auto
