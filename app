@@ -1,3 +1,3 @@
 {
-    "connectionString": "db=1"
+    "connectionString": "db=2;DEV Database"
 }
